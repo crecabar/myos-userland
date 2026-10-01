@@ -1,0 +1,35 @@
+# Build outputs
+/build/
+/out/
+/dist/
+/sysroot/
+/rootfs/
+
+# C/C++ compilation artifacts
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.lo
+*.la
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Generated dependency / tooling files
+compile_commands.json
+.cache/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+core
+core.*
+
+# Platform metadata
+.DS_Store
+Thumbs.db
